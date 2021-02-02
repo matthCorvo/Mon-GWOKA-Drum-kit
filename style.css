@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+  font-size: 10px;
+  background: url('./background.jpg') center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+body,html{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}   
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 20vh;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.key {
+  margin: 1rem;
+  font-size: 5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+  background: url('./gwo-ka-4-removebg-preview.png') center center;
+  background-repeat: no-repeat;
+  background-size: 12rem;
+}
+.key1 {
+  width: 10rem;
+  text-align: center;
+}
+.key1 {
+  width: 10rem;
+  text-align: center;
+}
+section h2 { text-shadow: 4px 4px 7px orangered;
+  opacity: 0.9;
+color: white;}
+h1{
+  text-shadow: 4px 4px 7px orangered;
+  opacity: 0.9;
+  background:url('https://www.tissushop.fr/images/produits/412/28/schon/800/2020-01-09-14-58-38.jpg')}
+
+.footer{  background:url('https://www.tissushop.fr/images/produits/412/28/schon/800/2020-01-09-14-58-38.jpg')}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #fde400;
+  text-shadow: 4px 4px 7px rgb(3, 3, 3);
+
+}
+
+/*MERCI*/
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.flex figure {
+	width: 48%;
+	margin: 0;
+	margin-bottom: 5rem;
+}
+
+.flex img {
+	float: left;
+	margin-right: 2rem;
+}

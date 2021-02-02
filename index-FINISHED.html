@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <title>Matth Corvo | Javascript GWOKA </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <i class="fab fa-js-square fa-5x" style="color:#fcd707"></i>
+  <div onmousedown="KA.play()">
+  <h2 style="text-align: center; font-size: 28px;  text-shadow: 4px 4px 7px rgb(255, 255, 255);  "> Frapper le « ka » <i class="fas fa-hands-wash fa-2x" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i></h2> 
+  </div>
+  <h2 style="text-align: center; font-size: 28px;  text-shadow: 4px 4px 7px rgb(255, 255, 255);  "> <i class="fas fa-keyboard fa-2x"></i> Utiliser le clavier pour Jouer </h2>
+
+  <h1 style="  color:rgb(255, 255, 255);font-size: 50px;text-align: center;">Mon « GwoKa »</h1>
+  <div class="keys">
+    <i class="fas fa-music fa-8x" style="color: #fde400;text-shadow: 4px 4px 7px orangered;"></i> 
+     <div data-key="65" class="key">
+    <kbd>A</kbd>
+    <span class="sound"><b>BASS (Fonsyé*)</b></span>
+  </div>
+  <div data-key="90" class="key">
+    <kbd>Z</kbd>
+    <span class="sound"><b>MEDIUM (Mitan*)</b></span>
+  </div>
+  <div data-key="69" class="key">
+    <kbd>E</kbd>
+    <span class="sound"><b>AIGU (Zoban*)</b></span>
+  </div>
+</div>
+  <h1 style="  color:rgb(255, 255, 255);font-size: 50px;text-align: center;">Les 7 rythmes</h1>
+    <div class="keys">
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <div onmousedown="Toumblak.play()">
+        <span class="sound"><b>Toumblak</b> </i></span>
+        <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
+    </div>
+  </div>
+
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <div onmousedown="Graj.play()">
+      <span class="sound"><b>Graj</b></span>
+        <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
+    </div>
+  </div>
+
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <div onmousedown="Léwoz.play()">
+      <span class="sound"><b>Léwoz</b></span>
+        <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
+    </div>
+  </div>
+
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <div onmousedown="Woulé.play()">
+      <span class="sound"><b>Woulé</b></span>
+      <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
+    </div>
+  </div>
+
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <div onmousedown="Kaladja.play()">
+      <span class="sound"><b>Kaladja</b></span>
+      <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
+    </div>
+  </div>
+
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <div onmousedown="Padjanbèl.play()">
+      <span class="sound"><b>Padjanbèl</b></span>
+      <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
+    </div>
+  </div>
+
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <div onmousedown="Mendé.play()">
+      <span class="sound"><b>Mendé</b></span>
+      <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
+    </div>
+  </div>
+  
+  </div>
+  <div style="text-align: center;">
+
+
+  <section>
+    <h2 style=" font-size: 45px;" class="footer"> tous mes remerciements</h2>
+      <div class="flex">
+      <figure>
+        <figcaption>
+          <h2 style=" font-size: 28px;">Mr. JUSTE Didier  </h2>
+          <a href="https://www.youtube.com/watch?v=BjAQ2b6Wofc" target="_blank" style="text-decoration: none;"><i class="fab fa-youtube fa-6x" style="color: red;"></i></a>
+        </figcaption>
+      </figure>
+      <figure>
+        <h2 style=" font-size: 28px;">Mr. CARRIERE Cyriaque Philippe  </h2>
+        <a href="https://www.youtube.com/watch?v=BjAQ2b6Wofc" target="_blank" style="text-decoration: none;"> <i class="fab fa-youtube fa-6x" style="color: red;"></i></a>
+      </figcaption>
+      </figure>
+    </div> <!-- fin de .flex -->
+  </section>  
+</div>
+<hr >
+          <footer >
+            <div style="text-align: center;font-size: 17px;">
+                <div style="justify-content: space-between;">
+                    <a href="https://github.com/matthCorvo" target="_blank"><span style="color:rgb(100, 20, 100);"><i class="fab fa-github-square fa-3x"></i></span></a>
+                    <a href="https://www.linkedin.com/in/corvomatthieu/" target="_blank"><span style="color:rgb(19, 35, 126);"><i class="fab fa-linkedin fa-3x"></i></span></a>
+                    <a href="https://twitter.com/CodeMatth" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+                    <a href="https://codepen.io/matthandampcode" target="_blank"><span style="color:rgb(0, 0, 0);"><i class="fab fa-codepen fa-3x"></i>  </span> </a>
+                    <a href="https://matthcorvo.github.io/Instagrampro/" target="_blank"><span style="color:rgb(255, 123, 0);"><i class="fab fa-instagram-square fa-3x"></i>  </span> </a>
+
+                  </div>
+
+                © <script>document.write(new Date().getFullYear());</script> Copyright  <a href="#">*{Matthieu CORVO} </a>
+         </div>    
+           </footer>
+  <audio data-key="65" src="sounds/Bass.wav"></audio>
+  <audio data-key="90" src="sounds/MEDIUM.wav"></audio>
+  <audio data-key="69" src="sounds/AIGU.wav"></audio>
+
+  <audio data-key="83" src="sounds/ToumblakPlay.wav"></audio>
+  <audio data-key="68" src="sounds/GrajPlay.wav"></audio>
+  <audio data-key="70" src="sounds/LéwozPlay.wav"></audio>
+  <audio data-key="71" src="sounds/WouléPlay.wav"></audio>
+  <audio data-key="72" src="sounds/KaladjaPlay.wav"></audio>
+  <audio data-key="74" src="sounds/PadjanbèlPlay.wav"></audio>
+  <audio data-key="75" src="sounds/MendéPlay.wav"></audio>
+
+<script>
+  function removeTransition(e) {
+    if (e.propertyName !== 'transform') return;
+    e.target.classList.remove('playing');
+  }
+
+  function playSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+    if (!audio) return;
+
+    key.classList.add('playing');
+    audio.currentTime = 0;
+    audio.play();
+  }
+
+  const keys = Array.from(document.querySelectorAll('.key'));
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  window.addEventListener('keydown', playSound);
+</script>
+<script>
+  var Toumblak = new Audio();
+  Toumblak.src = 'sounds/Toumblak.wav';
+
+  var Graj = new Audio();
+  Graj.src = 'sounds/Graj.wav';
+
+  var Léwoz = new Audio();
+  Léwoz.src = 'sounds/Léwoz.wav';
+
+  var Woulé = new Audio();
+  Woulé.src = 'sounds/Woulé.wav';
+  
+  var Kaladja = new Audio();
+  Kaladja.src = 'sounds/Kaladja.wav';
+  
+  var Padjanbèl = new Audio();
+  Padjanbèl.src = 'sounds/Padjanbèl.wav';
+  
+  var Mendé = new Audio();
+  Mendé.src = 'sounds/Mendé.wav';
+  
+  var KA = new Audio();
+  KA.src = 'sounds/KA.wav';
+  
+  </script>
+
+</body>
+</html>
