@@ -20,73 +20,83 @@
 </head>
 <body>
   <div class="container-corner">
-    <a href="Clavier.html" style="text-decoration: none;font-size: 25px;  color: rgb(29, 146, 29);  ;text-shadow: 4px 4px 7px rgb(255, 255, 255); "> <i class="fas fa-desktop fa-2x"></i>
+    <a href="index.html" style="text-decoration: none;font-size: 25px;  color: rgb(29, 146, 29);  ;text-shadow: 4px 4px 7px rgb(255, 255, 255); "> <i class="fas fa-tablet-alt fa-2x" ></i>
 </div>
 
 <div class="container-cornerL">
   <a href="https://matthcorvo.github.io/CORVOMatthieu-portfolioV.2/#Portfolio" style="text-decoration: none;font-size: 25px;  color: rgb(29, 146, 29);  ;text-shadow: 4px 4px 7px rgb(255, 255, 255); "><i  class="fas fa-chevron-circle-left fa-2x"></i></a> 
 </div>
 
-  <h2 style="text-align: center; font-size: 28px;  text-shadow: 4px 4px 7px rgb(255, 255, 255);  "> Frapper le <span style="color: orangered;" >« ka »</span> avec  <i class="far fa-hand-point-up" style="color: #fff; text-shadow: 4px 4px 7px orangered;"></i>   ou   <i class="fas fa-mouse-pointer " style="color: #fff; text-shadow: 4px 4px 7px orangered;"></i></h2> 
- 
+  <h2 style="text-align: center; font-size: 28px;  text-shadow: 4px 4px 7px rgb(255, 255, 255);  "> <i class="fas fa-keyboard fa-2x"></i> Utiliser le clavier pour Jouer </h2>
+
   <h1 style="  color:rgb(255, 255, 255);font-size: 50px;text-align: center;">MONGWOKA.APP</h1>
   <div class="keys">
     <i class="fas fa-music fa-8x" style="color: #fde400;text-shadow: 4px 4px 7px orangered;"></i> 
-     <div  class="key" onmousedown="Bass.play()">
+     <div data-key="65" class="key">
+    <kbd>A</kbd>
     <span class="sound"><b>BASS (Fonsyé*)</b></span>
   </div>
-  <div  class="key" onmousedown="MEDIUM.play()">
+  <div data-key="90" class="key">
+    <kbd>Z</kbd>
     <span class="sound"><b>MEDIUM (Mitan*)</b></span>
   </div>
-  <div  class="key" onmousedown="AIGU.play()">
-    <span class="sound"><b> AIGU (Zoban*)</b></span>
+  <div data-key="69" class="key">
+    <kbd>E</kbd>
+    <span class="sound"><b>AIGU (Zoban*)</b></span>
   </div>
 </div>
   <h1 style="  color:rgb(255, 255, 255);font-size: 50px;text-align: center;">Les 7 rythmes</h1>
     <div class="keys">
-      <div  class="key">
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
         <div onmousedown="Toumblak.play()">
         <span class="sound"><b>Toumblak</b> </i></span>
         <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
     </div>
   </div>
 
-    <div  class="key">
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
       <div onmousedown="Graj.play()">
       <span class="sound"><b>Graj</b></span>
         <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
     </div>
   </div>
 
-    <div  class="key">
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
       <div onmousedown="Léwoz.play()">
       <span class="sound"><b>Léwoz</b></span>
         <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
     </div>
   </div>
 
-    <div  class="key">
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
       <div onmousedown="Woulé.play()">
       <span class="sound"><b>Woulé</b></span>
       <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
     </div>
   </div>
 
-    <div  class="key">
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
       <div onmousedown="Kaladja.play()">
       <span class="sound"><b>Kaladja</b></span>
       <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
     </div>
   </div>
 
-    <div  class="key">
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
       <div onmousedown="Padjanbèl.play()">
       <span class="sound"><b>Padjanbèl</b></span>
       <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
     </div>
   </div>
 
-    <div  class="key">
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
       <div onmousedown="Mendé.play()">
       <span class="sound"><b>Mendé</b></span>
       <i class="fas fa-hands-wash" style="color: #fde400; text-shadow: 4px 4px 7px orangered;"></i>
@@ -113,7 +123,7 @@
       </figure>
     </div> <!-- fin de .flex -->
   </section>  
-  </div>
+</div>
 <hr >
           <footer >
             <div style="text-align: center;font-size: 17px;">
@@ -123,35 +133,24 @@
                     <a href="https://twitter.com/CodeMatth" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
                     <a href="https://codepen.io/matthandampcode" target="_blank"><span style="color:rgb(0, 0, 0);"><i class="fab fa-codepen fa-3x"></i>  </span> </a>
                     <a href="https://matthcorvo.github.io/Instagrampro/" target="_blank"><span style="color:rgb(255, 123, 0);"><i class="fab fa-instagram-square fa-3x"></i>  </span> </a>
-                    <a href="#greeting-modal">
-                      <img src="GooglePlayStore.png" style="width:10%">  </a>
-                      <a href="#greeting-modal">
-                    <img src="Logo-telecharger-app-store.png"style="width:10%">  </a>
-                       <!-- Modal container -->
-  <div 
-  class="modal-container" 
-  id="greeting-modal">
 
-  <!-- Modal  -->
-  <div class="modal">
-    <img src="gwo-ka-4-removebg-preview.png" style="width:20%;">
-    <h3>Installer MONGWOKA.APP</h3>
-    <p>Installez cette application sur votre écran d'accueil pour un accès rapide et facile</p>
-  <br>
-  <p style="font-size: 15px;">Appuyez sur <i class="fas fa-sign-out-alt fa-rotate-270 fa-2x" style="color: rgb(0, 132, 255);"></i> puis sur 'Sur l'écran d'accueil'</p>
-
-  </div>
-
-  <!-- Background, click to close -->
-  <a href="#" class="modal-bg"></a>
-</div>
-
-            
                   </div>
 
                 © <script>document.write(new Date().getFullYear());</script> Copyright  <a href="#">*{Matthieu CORVO} </a>
          </div>    
            </footer>
+  <audio data-key="65" src="sounds/Bass.wav"></audio>
+  <audio data-key="90" src="sounds/MEDIUM.wav"></audio>
+  <audio data-key="69" src="sounds/AIGU.wav"></audio>
+
+  <audio data-key="83" src="sounds/ToumblakPlay.wav"></audio>
+  <audio data-key="68" src="sounds/GrajPlay.wav"></audio>
+  <audio data-key="70" src="sounds/LéwozPlay.wav"></audio>
+  <audio data-key="71" src="sounds/WouléPlay.wav"></audio>
+  <audio data-key="72" src="sounds/KaladjaPlay.wav"></audio>
+  <audio data-key="74" src="sounds/PadjanbèlPlay.wav"></audio>
+  <audio data-key="75" src="sounds/MendéPlay.wav"></audio>
+  
 
 <script>
   function removeTransition(e) {
@@ -174,36 +173,29 @@
   window.addEventListener('keydown', playSound);
 </script>
 <script>
-  /*Notes*/
-  var Bass = new Audio();
-  Bass.src = 'sounds/Bass.wav';
-  var MEDIUM = new Audio();
-  MEDIUM.src = 'sounds/MEDIUM.wav';
-  var AIGU = new Audio();
-  AIGU.src = 'sounds/AIGU.wav';
-   /*Rythmes*/
-
   var Toumblak = new Audio();
-  Toumblak.src = 'sounds/ToumblakPlay.wav';
+  Toumblak.src = 'sounds/Toumblak.wav';
 
   var Graj = new Audio();
-  Graj.src = 'sounds/GrajPlay.wav';
+  Graj.src = 'sounds/Graj.wav';
 
   var Léwoz = new Audio();
-  Léwoz.src = 'sounds/LéwozPlay.wav';
+  Léwoz.src = 'sounds/Léwoz.wav';
 
   var Woulé = new Audio();
-  Woulé.src = 'sounds/WouléPlay.wav';
+  Woulé.src = 'sounds/Woulé.wav';
   
   var Kaladja = new Audio();
-  Kaladja.src = 'sounds/KaladjaPlay.wav';
+  Kaladja.src = 'sounds/Kaladja.wav';
   
   var Padjanbèl = new Audio();
-  Padjanbèl.src = 'sounds/PadjanbèlPlay.wav';
+  Padjanbèl.src = 'sounds/Padjanbèl.wav';
   
   var Mendé = new Audio();
-  Mendé.src = 'sounds/MendéPlay.wav';
+  Mendé.src = 'sounds/Mendé.wav';
   
+  var KA = new Audio();
+  KA.src = 'sounds/KA.wav';
   
   </script>
 
